@@ -23,8 +23,8 @@ public class abc
         bookStack.Push(new Book("1984", 799));
 
         // Выводим информацию о книгах в стеке и вычисляем среднюю цену
-        double totalPrice = 0; // Переменная для общей цены
-        int bookCount = 0;    // Переменная для количества книг
+        double totalPrice = 0; 
+        int bookCount = 0;   
 
         Console.WriteLine("Книги в стеке:");
         foreach (Book book in bookStack)
